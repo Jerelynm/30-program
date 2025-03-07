@@ -20,7 +20,15 @@ void ejerciciof1() {
         cout <<"El numero es cero"<<endl;
     }
 }
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
+void ejerciciof2() {
+    int n;
+
+    cout <<"Ingrese un numero: "<<endl;
+    cin >> n;
+
+    if (n % 2 == 0) {
+        cout <<"El numero "<<n<<" es par"<<endl;
+    } else {
+        cout <<"El numero "<<n<<" es impar"<<endl;
+    }
+}

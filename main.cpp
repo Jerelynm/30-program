@@ -337,3 +337,25 @@ int ejercicioFOR3() {
     // Mostrar el resultado
     cout << "La suma de los numeros pares desde 1 hasta " << x << " es: " << suma << endl;
 }
+int ejercicioFOR4() {
+    int n1;
+    long long factorial = 1; // para manejar números grandes
+
+    // Solicitar al usuario que ingrese un número entero no negativo
+    cout << "Ingresa un numero entero no negativo: ";
+    cin >> n1;
+
+    // Verificar que el número ingresado sea no negativo
+    if (n1 < 0) {
+        cout << "El factorial no esta definido para numeros negativos." << endl;
+        return 1; // Salir del programa si el número es negativo
+    }
+
+    // Bucle for para calcular el factorial
+    for (int i = 1; i <= n1; i++) {
+        factorial *= i; // Multiplicar el factorial por el número actual
+    }
+
+    // Mostrar el resultado
+    cout << "El factorial de " << n1 << " es: " << factorial << endl;
+}

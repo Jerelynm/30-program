@@ -293,3 +293,11 @@ void ejwh10() {
 
     cout << "El producto de los primeros 10 numeros naturales es: " << producto << endl;
 }
+void ejercicioFOR1() {
+    cout << "Los numeros pares del 2 al 20 son:" << endl;
+
+
+    for (int i = 2; i <= 20; i += 2) {
+        cout << i << endl; // Imprimir el número par actual
+    }
+}

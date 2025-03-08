@@ -226,3 +226,13 @@ void ejwh5() {
     }
     cout<<"La suma es: "<<suma<<endl;
 }
+void ejwh6() {
+    int MB, i=2;
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>MB;
+
+    while (i<=MB) {
+        cout<<i<<endl;
+        i+=2;
+    }
+}

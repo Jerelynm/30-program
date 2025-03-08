@@ -301,3 +301,17 @@ void ejercicioFOR1() {
         cout << i << endl; // Imprimir el número par actual
     }
 }
+void ejercicioFOR2() {
+    int numero;
+
+    // Solicitar al usuario que ingrese un número
+    cout << "Ingresa un numero: ";
+    cin >> numero;
+
+    cout << "Tabla de multiplicar de " << numero << ":" << endl;
+
+    // Bucle for para imprimir la tabla de multiplicar del número
+    for (int i = 1; i <= 10; i++) {
+        cout << numero << " x " << i << " = " << numero * i << endl; // Imprimir el resultado de la multiplicación
+    }
+}

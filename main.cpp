@@ -482,3 +482,103 @@ void ejercicioFOR10() {
 
     cout << endl; // Salto de línea al final
 }
+void MENUIFELSE() {
+    int opc;
+    do {
+        cout <<"\t Programas con If-Else  "<<endl;
+        cout<<"Seleccione una opcion"<<endl;
+        cout<<"1. Numero Positivo Negativo o Cero"<<endl;
+        cout<<"2. Numero Par o Impar"<<endl;
+        cout<<"3. Calcule el mayor de 3 numeros"<<endl;
+        cout<<"4. Determine el año bisiesto"<<endl;
+        cout<<"5. Determine si la letra es vocal o consonante"<<endl;
+        cout<<"6. Calcule el numero primo"<<endl;
+        cout<<"7. Año de nacimiento valido"<<endl;
+        cout<<"8. Multiplos de 5 y 7"<<endl;
+        cout<<"9. Determine su calificacion segun la escala A B C D F"<<endl;
+        cout<<"10. Calcule el precio con el descuento"<<endl;
+        cout<<"11. Volver al menu principal"<<endl;
+        cin>>opc;
+
+        switch (opc) {
+            case 1: ejercicioif1();break;
+            case 2: ejercicioif2();break;
+            case 3: ejercicioif3();break;
+            case 4: ejercicioif4();break;
+            case 5: ejercicioif5();break;
+            case 6: ejercicioif6();break;
+            case 7: ejercicioif7();break;
+            case 8: ejercicioif8();break;
+            case 9: ejercicioif9();break;
+            case 10: ejercicioif10();break;
+        }
+    }while (opc != 11);
+}
+void MENUWHILE() {
+    int opc;
+    do {
+        cout <<"\t Programas con WHILE  "<<endl;
+        cout<<"Seleccione una opcion"<<endl;
+        cout<<"1. Los numeros del 1 al 20"<<endl;
+        cout<<"2. Calcule los numeros desde 1 hasta el que digite"<<endl;
+        cout<<"3. Sume numeros positivos"<<endl;
+        cout<<"4. Determine la serie Fibonacci hasta un numero"<<endl;
+        cout<<"5. Calcule la suma de numeros hasta 100"<<endl;
+        cout<<"6. Numeros pares hasta uno determinado"<<endl;
+        cout<<"7. La media de 10 numeros"<<endl;
+        cout<<"8. Ingrese numeros hasta que sea igual a 0"<<endl;
+        cout<<"9. El cuadrado de los primeros 10 numeros naturales"<<endl;
+        cout<<"10. El producto de los primeros 10 numeros naturales"<<endl;
+        cout<<"11. Volver al menu principal"<<endl;
+        cin>>opc;
+
+        switch (opc) {
+            case 1: ejwh1();break;
+            case 2: ejwh2();break;
+            case 3: ejwh3();break;
+            case 4: ejwh4();break;
+            case 5: ejwh5();break;
+            case 6: ejwh6();break;
+            case 7: ejwh7();break;
+            case 8: ejwh8();break;
+            case 9: ejwh9();break;
+            case 10: ejwh10();break;
+        }
+    }while (opc != 11);
+}
+void MENUFOR() {
+    int opc;
+    do {
+        cout <<"\t Programas con FOR  "<<endl;
+        cout<<"1. Numeros pares del 2 al 20"<<endl;
+        cout<<"2. Tablas de multiplicar"<<endl;
+        cout<<"3. Calcule la suma de los numeros pares de un determinado numero"<<endl;
+        cout<<"4. Calcule el factorial de un numero"<<endl;
+        cout<<"5. Numeros primos del 1 al 50"<<endl;
+        cout<<"6. Determine la serie hasta el numero digitado"<<endl;
+        cout<<"7. Los primeros 10 numeros de la serie Fibonacci"<<endl;
+        cout<<"8. Calcula la suma de los primeros 100 numeros naturales"<<endl;
+        cout<<"9. Determine todos los divisores de un numero"<<endl;
+        cout<<"10. Los primeros 10 numeros primos"<<endl;
+        cout<<"11. Volver al menu principal"<<endl;
+        cin>>opc;
+    }while (opc!=11);
+}
+int main() {
+    int option;
+    do {
+        cout<<"\t MENU PRINCIPAL  "<<endl;
+        cout<<"Seleccione una opcion"<<endl;
+        cout<<"1. Programas con If-Else"<<endl;
+        cout<<"2. Programas con WHILE"<<endl;
+        cout<<"3. Programas con FOR"<<endl;
+        cout<<"4. Salir"<<endl;
+        cin>>option;
+
+        switch (option) {
+            case 1: MENUIFELSE();break;
+            case 2: MENUWHILE();break;
+            case 3: MENUFOR();break;
+        }
+    }while (option!=4);
+}

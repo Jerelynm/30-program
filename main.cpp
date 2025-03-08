@@ -270,3 +270,14 @@ void ejwh8() {
         cin >> Y;
     }
 }
+void ejwh9() {
+    int i = 1; // Comenzamos desde el primer número natural
+
+    cout << "Los primeros 10 numeros naturales y sus cuadrados son:" << endl;
+
+
+    while (i <= 10) {
+        cout << "Numero: " << i << ", Cuadrado: " << (i * i) << endl;
+        i++; // Incrementamos el número natural
+    }
+}

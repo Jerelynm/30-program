@@ -194,3 +194,18 @@ void ejwh3() {
     cout<<"La suma de los numeros positivos es: "<<suma<<endl;
     cout<<"Se ha detectado un numero negativo";
 }
+void ejwh4() {
+    int h, x=0, y=1, z=1;
+
+    cout<<"Digite un numero: "<<endl;
+    cin>>h;
+
+    cout <<"1 "<<endl;
+    while (z<=h) {
+        z = x + y;
+        cout << z << " "<<endl;
+        x = y;
+        y = z;
+    }
+    cout<<"\n";
+}

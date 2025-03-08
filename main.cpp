@@ -114,3 +114,24 @@ void ejercicioif8() {
         cout << "No es multiplo de 5 ni de 7"<<endl;
     }
 }
+void ejercicioif9() {
+    int an;
+
+    cout << "Determine su calificacion mediante su nota numerica de 0 - 100"<<endl;
+    cout << "Ingrese su calificacion numerica: "<<endl;
+    cin >> an;
+
+    if (an >= 90 && an <=100) {
+        cout << "Su calificacion es A"<<endl;
+    } else if (an >=80) {
+        cout << "Su calificacion es B"<<endl;
+    } else if (an >=70) {
+        cout << "Su calificacion es C"<<endl;
+    } else if (an >= 60) {
+        cout << "Su calificacion es D"<<endl;
+    } else if (an >= 0) {
+        cout << "Su calificacion es F"<<endl;
+    } else {
+        cout <<"Calificacion no valida, debe estar entre 0 y 100"<<endl;
+    }
+}

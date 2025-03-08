@@ -61,3 +61,15 @@ void ejercicioif4() {
         cout <<"El año "<<año<<" es bisiesto tiene 366 dias"<<endl;
     }
 }
+void ejercicioif5() {
+    char letter;
+
+    cout <<"Digite una letra que deseas: "<<endl;
+    cin>> letter;
+
+    if (letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u') {
+        cout << "La letra " << letter <<" es una vocal"<<endl;
+    } else {
+        cout << "La letra "<< letter <<" es una consonante"<<endl;
+    }
+}

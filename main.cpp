@@ -156,3 +156,11 @@ void ejercicioif10() {
         cout<<"El precio con descuento es:Q "<<PrecioFin<<endl;
     }
 }
+void ejwh1() {
+    int i=1;
+    while (i<=20) {
+        cout << i << " ";
+        i++;
+    }
+    cout<<endl;
+}

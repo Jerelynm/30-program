@@ -48,3 +48,16 @@ void ejerciciof3() {
         cout <<"El numero "<<c<<" es el mayor"<<endl;
     }
 }
+void ejercicioif4() {
+    int año;
+
+    cout<<"El año es bisiesto o no"<<endl;
+    cout<<"Escriba el año que desea: "<<endl;
+    cin >> año;
+
+    if ((año % 4 != 0 && año % 100 !=0) or (año % 400 == 0)) {
+        cout <<"El año "<<año<<" no es bisiesto porque tiene 365 dias"<<endl;
+    } else {
+        cout <<"El año "<<año<<" es bisiesto tiene 366 dias"<<endl;
+    }
+}

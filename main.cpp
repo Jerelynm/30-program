@@ -164,3 +164,19 @@ void ejwh1() {
     }
     cout<<endl;
 }
+void ejwh2() {
+    int ut, i=1;
+
+    cout << "Ingrese un numero entero: "<<endl;
+    cin>>ut;
+
+    if (ut<1) {
+        cout<<"El numero no es valido"<<endl;
+    } else {
+        while (i<=ut) {
+            cout<<i<<endl;
+            i++;
+        }
+        cout<<endl;
+    }
+}

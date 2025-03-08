@@ -85,3 +85,16 @@ void ejercicioif6() {
         cout << "El numero " <<cm<< " es primo"<<endl;
     }
 }
+void ejercicioif7() {
+    int N;
+
+    cout <<"Verifique si es un año valido"<<endl;
+    cout << "Ingrese el año: "<<endl;
+    cin >> N;
+
+    if (N >= 1901 && N <= 2024) {
+        cout <<N<<" es un año de nacimiento valido"<<endl;
+    } else {
+        cout <<N<<" no es un año de nacimiento valido"<<endl;
+    }
+}
